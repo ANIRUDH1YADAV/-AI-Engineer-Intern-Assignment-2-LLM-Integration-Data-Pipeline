@@ -2,7 +2,7 @@
 
 This repository contains a modular Python pipeline that ingests unstructured text from local `.txt` / `.pdf` files and URLs, cleans and chunks the text, sends each chunk to an LLM for structured extraction, and writes JSON, CSV, and plain-text summary outputs.
 
-The implementation uses direct API calls through the OpenAI SDK. It does not use LangChain, LlamaIndex, or similar orchestration frameworks.
+The implementation uses direct API calls through the OpenAI SDK. It does not use LangChain, LlamaIndex, or similar orchestration frameworks
 
 ## Why OpenAI
 
