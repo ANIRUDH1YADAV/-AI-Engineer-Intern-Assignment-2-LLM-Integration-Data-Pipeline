@@ -15,7 +15,7 @@ I used OpenAI because its chat completions API supports strict JSON response for
 - Chunks long documents using token-aware chunking with overlap.
 - Calls an LLM directly and requests structured JSON.
 - Parses JSON robustly, including recovery from fenced or malformed model output.
-- Retries transient failures, rate limits, and timeouts with exponential backoff using `tenacity`.
+- Retries transient failures, rate limits, and timeouts with exponential backoff using `tenacity`
 - Logs bad inputs and failed chunks while continuing the run.
 - Writes:
   - `results.json`
